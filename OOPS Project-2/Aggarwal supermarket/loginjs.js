@@ -19,13 +19,11 @@ userBtn.addEventListener('click',()=>{
     moveBtn.classList.remove("rigthBtn");
     admin.classList.remove("adminForm");
     user.classList.add("userForm");
-    manager.classList.remove("managerForm");
     moveBtn.innerHTML="User";
 });
 managerBtn.addEventListener('click',()=>{
     moveBtn.classList.add("rigthBtn2");
     admin.classList.remove("adminForm");
     user.classList.remove("userForm");
-    manager.classList.add("managerForm");
     moveBtn.innerHTML="Manager";
 });
